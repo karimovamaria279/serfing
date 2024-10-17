@@ -1,0 +1,61 @@
+@media (max-width:800px)
+{
+    .menu{
+        display:none;
+    }
+    .menu-hamburger{
+        display: block;
+        position: absolute;
+    }
+    .header{
+        margin-top:10%;
+    }
+    .subheader div{
+        text-align: center;
+    }
+    .columns{
+        flex-direction: column;
+        margin:0 auto;
+    }
+    .col1,.col2{
+        margin:0;
+    }
+    .hight{
+        flex-direction: column;
+        margin:0 auto;
+        width:70%;
+    }
+    .text-content{
+        margin-right: 0;
+    }
+    .second-title{
+        margin:30px;
+    }
+    .third-title{
+        margin:20px 0;
+    }
+    .command{
+        flex-direction: column;
+    }
+    .serfer{
+        margin-bottom: 30px;
+    }
+    .serfer div{
+        object-fit:contain;
+        text-align: center;
+    }
+    .serfer-text div:first-child{
+        font-family: roboto;
+        font-size: 12px; 
+        text-align: center;
+        font-weight: bold;
+    }
+    .serfer-text div:last-child{
+        font-family: roboto;
+        font-size: 10px; 
+        text-align: center;
+    }
+    .footer{
+        margin-top: 0;
+    }
+}
